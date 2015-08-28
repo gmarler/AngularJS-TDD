@@ -28,4 +28,17 @@ describe('TODO List Tests', function() {
     expect(scope.list[2]).toEqual('refactor');
   });
 
+  describe('', function () {
+
+    beforeEach(function () {
+      scope.add('repeat');
+    });
+
+    it('adds item to last item in list', function () {
+      var lastIndexOfList = scope.list.length - 1;
+      expect(scope.list[lastIndexOfList]).toEqual('repeat');
+    });
+
+  });
+
 });
