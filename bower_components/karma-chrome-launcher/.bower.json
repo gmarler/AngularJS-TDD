@@ -1,0 +1,15 @@
+{
+  "name": "karma-chrome-launcher",
+  "homepage": "https://github.com/karma-runner/karma-chrome-launcher",
+  "version": "0.2.0",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "55c8d3ecd42dadcf96609783d133711072e2776a"
+  },
+  "_source": "git://github.com/karma-runner/karma-chrome-launcher.git",
+  "_target": "~0.2.0",
+  "_originalSource": "karma-chrome-launcher",
+  "_direct": true
+}
