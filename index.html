@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+<head>
+  <title></title>
+</head>
+<body ng-app="comments">
+
+  <div ng-controller="CommentController">
+
+    <input type="text" />
+    <button type="button">Submit</button>
+
+    <ul ng-repeat="comment in comments">
+      <li>{{comment}}</li>
+    </ul>
+  </div>
+
+  <script src="bower_components/angular/angular.js">
+  </script>
+  <script src="app/comments.js"></script>
+  <script src="app/commentController.js"></script>
+
+</body>
+</html>
